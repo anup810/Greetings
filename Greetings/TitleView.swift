@@ -53,6 +53,7 @@ struct TitleView: View {
         HStack {
             VStack(alignment: .leading, spacing: 0){
                 Text("Greetings")
+                    .foregroundStyle(.white)
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                 Text(subtitle)
