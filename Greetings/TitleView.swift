@@ -9,8 +9,8 @@ import SwiftUI
 
 struct TitleView: View {
     @State private var isRotated: Bool = false
-    @State private var subtitle = "Exploring iOS Programming"
-    let subtitles = [
+    @State private var subtitle : LocalizedStringKey = "Exploring iOS Programming"
+    let subtitles : [LocalizedStringKey] = [
         "Swift Programming Language",
         "SwiftUI vs UIKit",
         "Core Data and SwiftData",
@@ -60,7 +60,7 @@ struct TitleView: View {
                     .font(.headline)
                     .fontWeight(.thin)
                     .onTapGesture {
-                        subtitle = subtitles.randomElement() ?? "Swift Programming Language"
+                        subtitle = subtitles.randomElement() ?? LocalizedStringKey("Swift Programming Language")
                     }
             }
             Spacer()

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greetings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPv-GO-wkU">
+                                <rect key="frame" x="48" y="105" width="167" height="41.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Colorful" translatesAutoresizingMaskIntoConstraints="NO" id="uDt-Gw-oBu">
+                                <rect key="frame" x="265" y="69" width="112" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="Jon-ZK-ihI"/>
+                                    <constraint firstAttribute="width" constant="112" id="OG5-FG-TnM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" name="CustomBlue1"/>
+                        <constraints>
+                            <constraint firstItem="uDt-Gw-oBu" firstAttribute="leading" secondItem="lPv-GO-wkU" secondAttribute="trailing" constant="50" id="0yf-qn-Y20"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="uDt-Gw-oBu" secondAttribute="trailing" constant="16" id="ISy-gV-Gc9"/>
+                            <constraint firstItem="lPv-GO-wkU" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="46" id="O5r-GM-QVQ"/>
+                            <constraint firstItem="uDt-Gw-oBu" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="10" id="Ymq-2R-2bd"/>
+                            <constraint firstItem="lPv-GO-wkU" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="48" id="aoj-iR-PSh"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="uDt-Gw-oBu" secondAttribute="bottom" constant="652" id="f8d-Ws-qFO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Colorful" width="1024" height="1024"/>
+        <namedColor name="CustomBlue1">
+            <color red="0.11764705882352941" green="0.53333333333333333" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

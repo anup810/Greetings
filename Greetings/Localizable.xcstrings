@@ -1,0 +1,369 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Accessibility & VoiceOver Support" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibilité & support VoiceOve"
+          }
+        }
+      }
+    },
+    "Animations with SwiftUI & UIKit" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animations avec SwiftUI & UIKit"
+          }
+        }
+      }
+    },
+    "App Storage & UserDefaults" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stockage des applications & UserDefaults"
+          }
+        }
+      }
+    },
+    "Are you ready to" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Êtes-vous prêt ?"
+          }
+        }
+      }
+    },
+    "Boom." : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boom."
+          }
+        }
+      }
+    },
+    "Building Apps for watchOS, macOS, & tvOS" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Création d'applications pour watchOS, macOS et tvOS"
+          }
+        }
+      }
+    },
+    "Building Augmented Reality with ARKit" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Création de réalité augmentée avec ARKit"
+          }
+        }
+      }
+    },
+    "Building Custom UI Components" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Création de composants d'interface utilisateur personnalisés"
+          }
+        }
+      }
+    },
+    "Concurrency with async/await & Grand Central Dispatch (GCD)" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concurrence avec async/await & Grand Central Dispatch (GCD)"
+          }
+        }
+      }
+    },
+    "Core Data and SwiftData" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Core Data et SwiftData"
+          }
+        }
+      }
+    },
+    "Core Motion & Sensors (Gyroscope, Accelerometer)" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capteurs Core Motion (Gyroscope, Accéléromètre)"
+          }
+        }
+      }
+    },
+    "Debugging with Xcode Instruments & Console Logs" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Débogage avec Xcode Instruments & Console Logs"
+          }
+        }
+      }
+    },
+    "Exploring iOS Programming" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploration de la programmation iOS"
+          }
+        }
+      }
+    },
+    "Greetings" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salutations"
+          }
+        }
+      }
+    },
+    "Handling User Input & Forms" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestion de l'entrée utilisateur et des formulaires"
+          }
+        }
+      }
+    },
+    "HealthKit & Fitness Tracking" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivi de la condition physique avec HealthKit"
+          }
+        }
+      }
+    },
+    "Hello there!" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour !"
+          }
+        }
+      }
+    },
+    "Integrating In-App Purchases & StoreKit" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intégration des achats intégrés & StoreKit"
+          }
+        }
+      }
+    },
+    "Integrating REST APIs & GraphQL" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intégration des API REST & GraphQL"
+          }
+        }
+      }
+    },
+    "Location Services & MapKit" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Services de localisation & MapKit"
+          }
+        }
+      }
+    },
+    "Machine Learning with CoreML & Vision" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apprentissage automatique avec CoreML & Vision"
+          }
+        }
+      }
+    },
+    "Managing State with State, Binding, and Environment" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestion de l'état avec State, Binding et Environment"
+          }
+        }
+      }
+    },
+    "Navigation with SwiftUI NavigationStack & UIKit UINavigationController" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigation avec SwiftUI NavigationStack & UIKit UINavigationController"
+          }
+        }
+      }
+    },
+    "Networking with URLSession & Alamofire" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise en réseau avec URLSession & Alamofire"
+          }
+        }
+      }
+    },
+    "Publishing Apps to the App Store" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publication d'applications sur l'App Store"
+          }
+        }
+      }
+    },
+    "Push Notifications & Local Notifications" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications push et notifications locales"
+          }
+        }
+      }
+    },
+    "Security & Keychain Services" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sécurité & services Keychain"
+          }
+        }
+      }
+    },
+    "Start exploring?" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer à explorer ?"
+          }
+        }
+      }
+    },
+    "Swift Programming Language" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Langage de programmation Swift"
+          }
+        }
+      }
+    },
+    "SwiftUI vs UIKit" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI vs UIKit"
+          }
+        }
+      }
+    },
+    "Unit Testing & UI Testing with XCTest" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tests unitaires et tests UI avec XCTest"
+          }
+        }
+      }
+    },
+    "Using Auto Layout and SwiftUI Layout System" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisation de l'Auto Layout et du système de disposition SwiftUI"
+          }
+        }
+      }
+    },
+    "Using Combine Framework for Reactive Programming" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisation du framework Combine pour la programmation réactive"
+          }
+        }
+      }
+    },
+    "Using WidgetKit for Home Screen Widgets" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisation de WidgetKit pour les widgets de l'écran d'accueil"
+          }
+        }
+      }
+    },
+    "Version Control with Git & GitHub" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contrôle de version avec Git & GitHub"
+          }
+        }
+      }
+    },
+    "Welcome to Swift Programming" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue dans la programmation Swift"
+          }
+        }
+      }
+    },
+    "Working with AVFoundation (Audio & Video)" : {
+
+    }
+  },
+  "version" : "1.0"
+}
