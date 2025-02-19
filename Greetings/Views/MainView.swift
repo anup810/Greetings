@@ -26,7 +26,7 @@ struct MainView: View {
                 GreetingsView()
                     .toolbar{
                         ToolbarItem(placement: .topBarTrailing) {
-                            LanguageOptionsView(language: $language, layoutDirectionString: $layoutDirectionString)
+                            LanguageOptionsTapView(language: $language, layoutDirectionString: $layoutDirectionString)
                         }
                     }
             }
@@ -35,7 +35,7 @@ struct MainView: View {
                 LandscapeGreetingsView()
                     .toolbar{
                         ToolbarItem(placement: .topBarTrailing) {
-                            LanguageOptionsView(language: $language, layoutDirectionString: $layoutDirectionString)
+                            LanguageOptionsTapView(language: $language, layoutDirectionString: $layoutDirectionString)
                         }
                     }
             }

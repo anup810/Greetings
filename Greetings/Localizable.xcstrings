@@ -81,6 +81,16 @@
         }
       }
     },
+    "Click on text and disc" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cliquez sur le texte et le disque"
+          }
+        }
+      }
+    },
     "Concurrency with async/await & Grand Central Dispatch (GCD)" : {
       "localizations" : {
         "fr" : {
@@ -122,7 +132,14 @@
       }
     },
     "English" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anglaise"
+          }
+        }
+      }
     },
     "Exploring iOS Programming" : {
       "localizations" : {
@@ -135,7 +152,14 @@
       }
     },
     "French" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Français"
+          }
+        }
+      }
     },
     "Greetings" : {
       "localizations" : {
@@ -303,6 +327,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SwiftUI vs UIKit"
+          }
+        }
+      }
+    },
+    "Text will be randomly generated and observe nice animations!" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le texte sera généré aléatoirement et observera de belles animations !"
           }
         }
       }

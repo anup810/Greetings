@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct LanguageOptionsTapView: View {
+    @Binding var language: String
+    @Binding var layoutDirectionString: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Menu {
+            Button("English") {
+                language = "en"
+                layoutDirectionString = LEFT_TO_RIGHT
+            }
+            Button("French") {
+                language = "fr"
+                layoutDirectionString = LEFT_TO_RIGHT
+            }
+        } label: {
+            Image(systemName: "gearshape.fill")
+                .foregroundStyle(.black)
+        }
     }
 }
-
 #Preview {
-    LanguageOptionsTapView()
+    LanguageOptionsTapView(language:.constant("en"), layoutDirectionString: .constant(LEFT_TO_RIGHT))
 }

@@ -49,6 +49,7 @@ struct LandscapeTitleView: View {
                 .fontWeight(.semibold)
             Text(subtitle)
                 .font(.headline)
+                .multilineTextAlignment(.leading)
                 .fontWeight(.thin)
                 .onTapGesture {
                     subtitle = subtitles.randomElement() ?? LocalizedStringKey("Swift Programming Language")
