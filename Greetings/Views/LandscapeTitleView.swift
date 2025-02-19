@@ -1,15 +1,14 @@
 //
-//  TitleView.swift
+//  LandscapeTitleView.swift
 //  Greetings
 //
-//  Created by Anup Saud on 2025-02-13.
+//  Created by Anup Saud on 2025-02-18.
 //
 
 import SwiftUI
 
-struct TitleView: View {
-    @State private var isRotated: Bool = false
-    @State private var subtitle : LocalizedStringKey = "Exploring iOS Programming"
+struct LandscapeTitleView: View {
+    @Binding var subtitle : LocalizedStringKey
     let subtitles : [LocalizedStringKey] = [
         "Swift Programming Language",
         "SwiftUI vs UIKit",
@@ -42,44 +41,22 @@ struct TitleView: View {
         "Building Apps for watchOS, macOS, & tvOS",
         "Accessibility & VoiceOver Support"
     ]
-    var angle: Angle{
-        return isRotated ? .zero : Angle(degrees: 360)
-    }
-    var angularGradient : AngularGradient{
-        return AngularGradient(gradient: Gradient(colors: [.pink,.purple,.blue,.orange,.yellow]), center: .center, angle: .zero)
-    }
-    
     var body: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 0){
-                Text("Greetings")
-                    .foregroundStyle(.white)
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                Text(subtitle)
-                    .font(.headline)
-                    .fontWeight(.thin)
-                    .onTapGesture {
-                        subtitle = subtitles.randomElement() ?? LocalizedStringKey("Swift Programming Language")
-                    }
-            }
-            Spacer()
-            Circle()
-                .strokeBorder(angularGradient, lineWidth: 15)
-                .rotationEffect(angle)
-                .frame(width: 70, height: 70)
+        VStack(alignment: .leading, spacing: 0){
+            Text("Greetings")
+                .foregroundStyle(.black)
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+            Text(subtitle)
+                .font(.headline)
+                .fontWeight(.thin)
                 .onTapGesture {
-                    withAnimation {
-                        isRotated.toggle()
-                    }
+                    subtitle = subtitles.randomElement() ?? LocalizedStringKey("Swift Programming Language")
                 }
         }
     }
 }
 
 #Preview {
-    VStack{
-        TitleView()
-    }.padding()
-    Spacer()
+    LandscapeTitleView(subtitle: .constant("Swift Programming Language"))
 }
