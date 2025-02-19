@@ -27,7 +27,13 @@ struct TextView: View {
         horizontalSizeClass == .regular && verticalSizeClass == .regular
     }
     var font: Font {
+        #if os(macOS)
+        .title
+        #elseif os(iOS)
         isIPad ? .largeTitle : .body
+#endif
+        
+        
     }
     var body: some View {
         VStack{

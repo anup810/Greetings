@@ -8,18 +8,59 @@
 
 /* Begin PBXFileReference section */
 		4A1FC57D2D5C489F00BA00D8 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADA01D32D66350B00188D73 /* GreetingsMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingsMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4ADA01E52D663E5B00188D73 /* Exceptions for "Greetings" folder in "GreetingsMac" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/Assets.xcassets,
+				Shared/Localizable.xcstrings,
+				Shared/Model/Constants.swift,
+				Shared/Model/DataModel.swift,
+				Shared/Tip/GreetingsTip.swift,
+				Shared/Views/BackgroundView.swift,
+				Shared/Views/CircleView.swift,
+				Shared/Views/GreetingsView.swift,
+				Shared/Views/LandscapeGreetingsView.swift,
+				Shared/Views/LandscapeTitleView.swift,
+				Shared/Views/LanguageOptionsTapView.swift,
+				Shared/Views/LanguageOptionsView.swift,
+				Shared/Views/MessageView.swift,
+				Shared/Views/TextView.swift,
+				Shared/Views/TitleView.swift,
+				Shared/Views/VerticalTitleView.swift,
+			);
+			target = 4ADA01D22D66350B00188D73 /* GreetingsMac */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4A1FC57F2D5C489F00BA00D8 /* Greetings */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4ADA01E52D663E5B00188D73 /* Exceptions for "Greetings" folder in "GreetingsMac" target */,
+			);
 			path = Greetings;
+			sourceTree = "<group>";
+		};
+		4ADA01D42D66350B00188D73 /* GreetingsMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GreetingsMac;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4A1FC57A2D5C489F00BA00D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADA01D02D66350B00188D73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4A1FC57F2D5C489F00BA00D8 /* Greetings */,
+				4ADA01D42D66350B00188D73 /* GreetingsMac */,
 				4A1FC57E2D5C489F00BA00D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				4A1FC57D2D5C489F00BA00D8 /* Greetings.app */,
+				4ADA01D32D66350B00188D73 /* GreetingsMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +113,28 @@
 			productReference = 4A1FC57D2D5C489F00BA00D8 /* Greetings.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4ADA01D22D66350B00188D73 /* GreetingsMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADA01DF2D66350C00188D73 /* Build configuration list for PBXNativeTarget "GreetingsMac" */;
+			buildPhases = (
+				4ADA01CF2D66350B00188D73 /* Sources */,
+				4ADA01D02D66350B00188D73 /* Frameworks */,
+				4ADA01D12D66350B00188D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4ADA01D42D66350B00188D73 /* GreetingsMac */,
+			);
+			name = GreetingsMac;
+			packageProductDependencies = (
+			);
+			productName = GreetingsMac;
+			productReference = 4ADA01D32D66350B00188D73 /* GreetingsMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -81,6 +146,9 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					4A1FC57C2D5C489F00BA00D8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4ADA01D22D66350B00188D73 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -101,6 +169,7 @@
 			projectRoot = "";
 			targets = (
 				4A1FC57C2D5C489F00BA00D8 /* Greetings */,
+				4ADA01D22D66350B00188D73 /* GreetingsMac */,
 			);
 		};
 /* End PBXProject section */
@@ -113,10 +182,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4ADA01D12D66350B00188D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A1FC5792D5C489F00BA00D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADA01CF2D66350B00188D73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,10 +357,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saudAnup.Greetings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -314,11 +398,70 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saudAnup.Greetings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		4ADA01E02D66350C00188D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GreetingsMac/GreetingsMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreetingsMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 235VR6UC3H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saudAnup.GreetingsMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4ADA01E12D66350C00188D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GreetingsMac/GreetingsMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreetingsMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 235VR6UC3H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saudAnup.GreetingsMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -339,6 +482,15 @@
 			buildConfigurations = (
 				4A1FC58D2D5C48A100BA00D8 /* Debug */,
 				4A1FC58E2D5C48A100BA00D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADA01DF2D66350C00188D73 /* Build configuration list for PBXNativeTarget "GreetingsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADA01E02D66350C00188D73 /* Debug */,
+				4ADA01E12D66350C00188D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

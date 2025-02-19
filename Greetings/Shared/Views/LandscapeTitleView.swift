@@ -47,16 +47,26 @@ struct LandscapeTitleView: View {
                 .foregroundStyle(.black)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
+#if os(macOS)
+            Text(subtitle)
+                .font(.title)
+                .multilineTextAlignment(.leading)
+                
+#elseif os(iOS)
             Text(subtitle)
                 .font(.headline)
                 .multilineTextAlignment(.leading)
                 .fontWeight(.thin)
+#endif
+
+        }
+            
                 .onTapGesture {
                     subtitle = subtitles.randomElement() ?? LocalizedStringKey("Swift Programming Language")
                 }
         }
     }
-}
+
 
 #Preview {
     LandscapeTitleView(subtitle: .constant("Swift Programming Language"))

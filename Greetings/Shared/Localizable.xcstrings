@@ -201,6 +201,9 @@
         }
       }
     },
+    "Hello, world!" : {
+
+    },
     "Integrating In-App Purchases & StoreKit" : {
       "localizations" : {
         "fr" : {
