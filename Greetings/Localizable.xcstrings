@@ -121,6 +121,9 @@
         }
       }
     },
+    "English" : {
+
+    },
     "Exploring iOS Programming" : {
       "localizations" : {
         "fr" : {
@@ -130,6 +133,9 @@
           }
         }
       }
+    },
+    "French" : {
+
     },
     "Greetings" : {
       "localizations" : {

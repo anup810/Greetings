@@ -21,9 +21,18 @@ struct TextView: View {
         Color(red: 139/255, green: 207/255, blue: 240/255),
         Color(red: 1, green: 215/255, blue: 0)
     ]
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass
+    var isIPad: Bool{
+        horizontalSizeClass == .regular && verticalSizeClass == .regular
+    }
+    var font: Font {
+        isIPad ? .largeTitle : .body
+    }
     var body: some View {
         VStack{
             Text(text)
+                .font(font)
                 .fontWeight(.semibold)
                 .padding()
                 .foregroundStyle(.white)
